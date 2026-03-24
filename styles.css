@@ -112,3 +112,48 @@ svg {
     padding: 10px 25px 10px;
     margin-right: 20px;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    background-color: lightgray ;
+}
+
+.announcements-card, .trending-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+
+}
+
+.announcements-card > h4, .announcements-card > p {
+    margin: 0;
+}
+
+hr {
+    margin: 25px 0px;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.pfp > img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.text > p {
+    margin: 0;
+}
+
+
+
+
+
