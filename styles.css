@@ -120,7 +120,7 @@ svg {
     background-color: lightgray ;
 }
 
-.announcements-card, .trending-card {
+.announcements-card, .trending-card, .card {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 5px gray;
@@ -153,7 +153,24 @@ hr {
     margin: 0;
 }
 
+.content-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
 
+.card {
+    border-left: 10px solid rgb(255, 196, 0);
+}
 
+.card > p {
+    margin: 0;
+}
 
-
+.card-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-top: 30px;
+}
